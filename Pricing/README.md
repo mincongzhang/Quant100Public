@@ -18,3 +18,7 @@ https://en.wikipedia.org/wiki/Risk-neutral_measure
 For example, a risk-neutral investor will be indifferent between receiving $100 for sure, or playing a lottery that gives her a 50 percent chance of winning $200 and a 50 percent chance of getting nothing. Both alternatives have the same expected value; the lottery, however, is riskier.
 
 https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/risk-neutrality
+
+
+Risk-neutral valuation. Risk-neutral valuation says that when valuing derivatives like stock options, you can simplify by assuming that all assets grow—and can be discounted—at the risk-free rate. In fact, this is a key component that can be used for valuation, as Black, Scholes, and Merton proved in their Nobel Prize-winning formula.
+https://www.equitymethods.com/articles/real-world-vs-risk-neutral-understanding-the-difference-between-valuation-and-derived-service-period-assumptions/#:~:text=Risk%2Dneutral%20valuation%20says%20that,their%20Nobel%20Prize%2Dwinning%20formula.
