@@ -27,3 +27,7 @@ https://www.equitymethods.com/articles/real-world-vs-risk-neutral-understanding-
 A method for valuing financial assets. Risk-neutral valuation calculates the value of an asset by discounting the expected value of its future pay-offs at the risk-free rate of return. The expected value is not obtained using the actual probabilities of each pay-off. Instead, risk-neutral valuation calculates the expected value of future pay-offs using constructed probabilities that have the property of rationalizing observed asset prices if all investors were risk-neutral.
 
 https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100422542;jsessionid=238167D4598E949C0C4525D7D075861F
+
+At any point, investors can either (a) hold $1 stock or (b)invest $1 at the risk-free rate r.
+A risk-neutral investor would not care which portfolio they owned if they had the same return.
+https://www3.cs.stonybrook.edu/~skiena/691/lectures/lecture11.pdf
