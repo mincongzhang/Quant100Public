@@ -22,3 +22,8 @@ https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazin
 
 Risk-neutral valuation. Risk-neutral valuation says that when valuing derivatives like stock options, you can simplify by assuming that all assets grow—and can be discounted—at the risk-free rate. In fact, this is a key component that can be used for valuation, as Black, Scholes, and Merton proved in their Nobel Prize-winning formula.
 https://www.equitymethods.com/articles/real-world-vs-risk-neutral-understanding-the-difference-between-valuation-and-derived-service-period-assumptions/#:~:text=Risk%2Dneutral%20valuation%20says%20that,their%20Nobel%20Prize%2Dwinning%20formula.
+
+
+A method for valuing financial assets. Risk-neutral valuation calculates the value of an asset by discounting the expected value of its future pay-offs at the risk-free rate of return. The expected value is not obtained using the actual probabilities of each pay-off. Instead, risk-neutral valuation calculates the expected value of future pay-offs using constructed probabilities that have the property of rationalizing observed asset prices if all investors were risk-neutral.
+
+https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100422542;jsessionid=238167D4598E949C0C4525D7D075861F
