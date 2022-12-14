@@ -5,3 +5,5 @@ so that no trader can __make a risk-free profit by buying one and selling the ot
 
 
 If any arbitrage opportunities do arise, they quickly disappear as traders taking advantage of the arbitrage push the derivative’s price until it equals the value of replicating portfolios.
+
+https://www.risk.net/definition/no-arbitrage-pricing
