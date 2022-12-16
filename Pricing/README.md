@@ -3,7 +3,7 @@
 Derivatives are priced using the no-arbitrage or arbitrage-free principle: the price of the derivative is set at the same level as the value of the replicating portfolio, 
 so that no trader can __make a risk-free profit by buying one and selling the other__.
 
-利用一组金融资产来复制另一组金融资产的未来现金流，当两种不同的资产组合未来损益（payoff）相同时，则它们之间应该实现头寸上的完全对冲
+利用一组金融资产来复制另一组金融资产的未来现金流，当两种不同的资产组合未来损益（payoff）相同时，则它们之间应该实现头寸(position)上的完全对冲
 
 e.g. options payoff = stocks payoff
 
