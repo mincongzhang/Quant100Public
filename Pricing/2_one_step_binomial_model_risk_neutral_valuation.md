@@ -55,6 +55,8 @@ T时间段之后的股价期望: $E(S_T) = p \times S_0 \times u + (1-p) \times 
 
 T时间段之后的期权期望: $E(f_T) = p \times f_u + (1-p) \times f_d$
 
+我们要算最初的期权价格: $f$
+
 ![image](https://user-images.githubusercontent.com/5571030/207022685-b1135476-b384-4bfd-9a77-7122830a793d.png)
 
 
