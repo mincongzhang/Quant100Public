@@ -75,3 +75,7 @@ $$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d = E(S_0)$$
 $$p \times 22 + (1-p) \times 18 = 20$$
 
 $$p = 0.5$$
+
+所以在无风险利率的情况下, 我们可以看到股票上涨概率和下跌概率都是0.5. 带入到期权的期望里:
+
+T时间段之后的期权期望: $E(f_T) = p \times f_u + (1-p) \times f_d = 0.5 \times 1 + 0.5 \times 0 = 0.5$
