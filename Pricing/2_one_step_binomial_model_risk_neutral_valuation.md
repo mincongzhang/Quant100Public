@@ -72,6 +72,8 @@ $$E(S_T)  = S_0$$
 
 带入变量的值我们可以得到:
 
+$$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d$$ 
+
 $$p \times 22 + (1-p) \times 18 = 20$$
 
 $$p = 0.5$$
@@ -89,3 +91,4 @@ $$E(f_T) = p \times f_u + (1-p) \times f_d = 0.5 \times 1 + 0.5 \times 0 = 0.5$$
 如果考虑无风险利率, $T$时间段之后, 也就是3个月之后的股价收益就会等同于把初始股价的钱存银行后的收益, 也就是: 
 
 $$E(S_T)  = S_0 \times e ^{rT}$$
+
