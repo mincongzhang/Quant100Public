@@ -96,8 +96,8 @@ $$E(S_T)  = S_0 \times e ^{rT}$$
 
 $$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d =  S_0 \times e ^{rT}$$ 
 
-$$E(S_T) = p \times 22 + (1-p) \times 18 =  20 \times e ^{0.12 \times 3/12} = 27$$
+$$E(S_T) = p \times 22 + (1-p) \times 18 =  20 \times e ^{0.12 \times 3/12} = 20.61$$
 
 算出: 
 
-$$ p = $$
+$$ p = 0.6523$$
