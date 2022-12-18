@@ -62,4 +62,12 @@ T时间段之后的期权期望: $E(f_T) = p \times f_u + (1-p) \times f_d$
 
 #### 再次简化: 不考虑无风险利率(No interest free rate)
 
+如果不考虑无风险利率, $T$时间段之后, 也就是3个月之后的股价预期和初始股价完全一样: 
 
+T时间段之后的股价期望: 
+
+$$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d = E(S_0)$$
+
+带入变量的值我们可以得到:
+
+$$p \times 22 + (1-p) \times 18 = 20$$
