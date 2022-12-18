@@ -138,7 +138,7 @@ $$E(f_T) = p \times f_u + (1-p) \times f_d$$
 
 $$f = E(f_T) \times e^{-rT} $$
 
-$$f = (p \times f_u + (1-p) \times f_d \times) e^{-rT} $$
+$$f = (p \times f_u + (1-p) \times f_d) e^{-rT} $$
 
 我们又整理出和无套利定价得出的同样的结果了:
 
