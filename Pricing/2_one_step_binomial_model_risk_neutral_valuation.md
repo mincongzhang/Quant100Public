@@ -34,3 +34,6 @@
 
 1. 股票可能涨到$22, 这时期权价值$1 
 2. 股票可能跌到$18, 这时期权价值$0
+
+![image](https://user-images.githubusercontent.com/5571030/207022685-b1135476-b384-4bfd-9a77-7122830a793d.png)
+
