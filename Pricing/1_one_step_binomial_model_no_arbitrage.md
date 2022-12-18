@@ -60,11 +60,11 @@ Binomial Tree是一个很常用的定价模型. 在这种模型下, 我们有一
 
 注意这里没有给出涨跌概率, 只给出了涨跌可能的结果. 不管它是50%的概率涨还是90%的概率涨, 我们只把股价涨跌后的可能的结果拿来做期权定价, 实际上涨跌的概率已经包含在股价里面了(The probabilities of future up or down movements are already incoperated into the stock price).
 
-![image](https://user-images.githubusercontent.com/5571030/206761957-1ab76bb4-23fb-4e95-84a0-ebbf8218d267.png)
-
 1. 股票涨到了$22, 如果客户行使权利, 以$21的价格买入股票, 那么客户赚了$1, 这时候这个期权的价值就是$1
 
-2. 股票跌到了$18, 客户行使权利, 以$21的价格买入股票, 那么客户亏了$3...但客户必然不行使权利, 这时候这个期权的价值就是$0
+2. 股票跌到了$18, 客户必然不行使权利, 这时候这个期权的价值就是$0
+
+![image](https://user-images.githubusercontent.com/5571030/206761957-1ab76bb4-23fb-4e95-84a0-ebbf8218d267.png)
 
 ### 一阶Binomia模型 - 无套利定价 - 不考虑无风险利率
 
