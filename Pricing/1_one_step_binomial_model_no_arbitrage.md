@@ -196,3 +196,87 @@ $$f = 0.633$$
 
 
 ### 一阶Binomia模型: 无套利定价(No-arbitrage pricing)公式
+
+我们最后把上面的例子整理成一般化的公式:
+
+假设某个股票当前价格(underlying price)是 $S_0$, 这时候投行为了建立无风险资产组合买入的股票价格是 $S_0&Delta;$, 卖出的股票期权价格是 $f$, 是我们要算出的值.
+
+这时候投行拥有的总资产价值是: 
+
+$$S_0&Delta; - f$$
+
+如下图, 我们把之前的例子一般化:
+
+![image](https://user-images.githubusercontent.com/5571030/207022685-b1135476-b384-4bfd-9a77-7122830a793d.png)
+
+一段时间 $T$ 后, 有两种情况:
+
+1. 股票上涨到 $S_0 \times u , u>1$ , 这时的期权价值是 $f_u$, 这时候总资产价值 $S_0 \times u \times &Delta; - f_u$
+2. 股票下跌到 $S_0 \times d , d<1$ , 这时的期权价值是 $f_d$, 这时候总资产价值 $S_0 \times d \times &Delta; - f_d$
+
+这两种情况发生后, 总资产价值应该一样: 
+$$S_0 \times u \times &Delta; - f_u = S_0 \times d \times &Delta; - f_d$$
+
+整理一下:
+$$&Delta; =  \frac{f_u - f_d}  { S_0 \times u - S_0 \times d }$$
+
+假设无风险利率是 $r$, 因为上涨或者下跌后资产组合的价值都一样, 我们取上涨后的资产组合价值, 折现到时间段 $T$ 之前的资产组合的价值(Present Value):
+
+$$(S_0 \times u \times &Delta; - f_u)e^{-rT}$$
+
+折现后资产组合的价值和我们最开始得出的价值应该一样：
+
+$$S_0&Delta; - f = (S_0 \times u \times &Delta; - f_u)e^{-rT}$$
+
+得出:
+
+$$f = S_0&Delta; -  (S_0 \times u \times &Delta; - f_u)e^{-rT} $$
+
+$$f = S_0&Delta;(1-ue^{-rT}) +  f_ue^{-rT}$$
+
+把之前的 $&Delta;$ 带入:
+
+$$f = S_0 (\frac{f_u - f_d}  { S_0 \times u - S_0 \times d }) (1-ue^{-rT}) +  f_ue^{-rT}$$
+
+就可以把 $S_0$ 抵消了:
+
+$$f = (\frac{f_u - f_d}  { u -  d }) (1-ue^{-rT}) +  f_ue^{-rT}$$
+
+再整理一下:
+
+$$f = \frac{(f_u - f_d)(1-ue^{-rT}) + f_ue^{-rT}(u-d)}  { u -  d }$$
+
+$$f = \frac{ f_u - f_d - f_u ue^{-rT} + f_d ue^{-rT} + f_u ue^{-rT} - f_u de^{-rT}}  { u -  d }$$
+
+
+$$f = \frac{ f_u - f_d + f_d ue^{-rT}  - f_u de^{-rT}}  { u -  d }$$
+
+$$f = \frac{ e^{-rT}(f_u e^{rT} - f_d e^{rT} + f_d u  - f_u d ) }  { u -  d }$$
+
+$$f = \frac{ e^{-rT}[f_u (e^{rT} - d) + f_d (u - e^{rT} ) ] }  { u -  d }$$
+
+$$f = \frac{ e^{-rT}[f_u (e^{rT} - d) + f_d (u - d - e^{rT} + d) ] }  { u -  d }$$
+
+$$f =  e^{-rT}[p f_u  + (1-p) f_d ] \text{ ,  }  p = \frac{(e^{rT} - d)} {u-d}$$
+
+我们抽出一个 $p$ 留着以后用. 
+
+把之前例子里的具体数字拿来:
+
+最初股票价格: $S_0 = 20$
+
+股票涨到$22: $S_0 u = 22, u = 1.1$ , 期权价值: $f_u = 1$
+
+股票跌到$18: $S_0 d = 18, d = 0.91$ , 期权价值: $f_d = 0$
+
+无风险利率: $r = 0.12$
+
+时间是3个月, 以一年为单位: $T = 3/12 = 0.25$
+
+代入公式:
+
+$$p = \frac{e^{0.12 \times 3/12} - 0.9} {1.1 - 0.9} = 0.6523$$
+
+$$f = e^{-0.12 \times 3/12} (0.6523 \times 1 + 0.3477 \times 0) = 0.633 $$
+
+我们发现这和我们之前例子算出来的值是一样的, 验证出我们抽象出来的公式没有问题. 
