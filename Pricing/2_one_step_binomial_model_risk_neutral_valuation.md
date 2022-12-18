@@ -5,3 +5,17 @@
 这篇文章按我自己的理解整理了John C. Hull的《Options, Futures, and Other Derivatives》相应的章节, 有删减, 也有增加背景介绍, 细节以原文为主, 有问题欢迎指出. 
 
 防杠精声明: 如果觉得文章有错漏麻烦指出具体错在哪, 或给出正确的答案解释, 或者相应的引用来源.
+
+## Binomial Tree定价
+
+还是在Binomial Tree定价的框架下, 我们看看另一种定价方法. 
+
+基本假设还是不变的, 我们假设股票价格是随机游走的(random walk). 从一个时间段的开头到结尾, 股票价格可能上涨, 也可能下跌, 但都是完全随机的. 
+
+### 回顾无套利定价(No arbitrage valuation)
+
+在无套利的假设下, 我们可以通过购买一定量的股票本身, 复现出期权的现金流, 从而算出期权的价格. 这是方法之一. 
+
+### 风险中性定价(Risk-neutral valuation)
+
+另一种方法就是风险中性定价(Risk-neutral valuation). 这里
