@@ -71,3 +71,5 @@ $$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d = E(S_0)$$
 带入变量的值我们可以得到:
 
 $$p \times 22 + (1-p) \times 18 = 20$$
+
+$$p = 0.5$$
