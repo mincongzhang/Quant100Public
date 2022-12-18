@@ -89,7 +89,7 @@ Binomial Tree是一个很常用的定价模型. 在这种模型下, 我们有一
 
 $$22&Delta; 18&Delta; = 1 - 0$$
 
-算出$&Delta; = 0.25$ 
+算出 $&Delta; = 0.25$ 
 
 
 #### 考虑无风险利率(interest free rate)
