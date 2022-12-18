@@ -67,7 +67,7 @@ Binomial Tree是一个很常用的定价模型. 在这种模型下, 我们有一
 
 这时候你作为投行, 你要决定这个期权最开始以多少价格出售, 你会怎么做呢?
 
-### 一阶Binomia模型: 无套利定价(No-arbitrage pricing) 
+### 一阶Binomia模型: 无套利定价(No-arbitrage pricing)案例
 
 我们做一个假设, 市场上没有套利的机会(arbitrage opportunities do not exist).
 
