@@ -92,3 +92,8 @@ $$E(f_T) = p \times f_u + (1-p) \times f_d = 0.5 \times 1 + 0.5 \times 0 = 0.5$$
 
 $$E(S_T)  = S_0 \times e ^{rT}$$
 
+带入变量的值我们可以得到:
+
+$$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d =  S_0 \times e ^{rT}$$ 
+
+$$E(S_T) = p \times 22 + (1-p) \times 18 =  20 \times e ^{0.12 \times 3/12} = 27$$
