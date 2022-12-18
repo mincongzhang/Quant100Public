@@ -111,3 +111,5 @@ $$E(f_T) = p \times f_u + (1-p) \times f_d = 0.6523 \times 1 + (1-0.6523) \times
 $$f = E(f_T) \times e^{-rT} $$
 
 $$f = 0.6523 \times e^{-0.12 \times 3/12} = 0.633 $$
+
+### 一阶Binomia模型: 风险中性定价(Risk-neutral pricing)公式
