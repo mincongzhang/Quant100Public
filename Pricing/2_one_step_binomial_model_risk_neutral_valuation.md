@@ -126,8 +126,16 @@ $$E(S_T)  = S_0 \times e ^{rT}$$
 
 $$E(S_T) = p \times S_0 \times u + (1-p) \times S_0 \times d =  S_0 \times e ^{rT}$$ 
 
-那么我们可以算出股票上涨的概率: 
+两个公式里都有 $S_0$ 其实它就可以被消掉了, 我们可以算出股票上涨的概率: 
 
 $$p = \frac{(e^{rT} - d)} {u-d}$$
 
 (这里有没有一些既视感? 和之前的无套利定价里我们整理出来的 $p$ 是完全一样的)
+
+再回到期权的期望:
+
+$$E(f_T) = p \times f_u + (1-p) \times f_d$$
+
+$$f = E(f_T) \times e^{-rT} $$
+
+$$f = p \times f_u + (1-p) \times f_d \times e^{-rT} $$
