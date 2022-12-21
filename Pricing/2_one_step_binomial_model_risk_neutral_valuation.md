@@ -2,7 +2,7 @@
 
 虽然我不是数学或者金融专业的, 但既然在这个领域工作了, 就开始系统性地学习一下.
 
-这篇文章按我自己的理解整理了John C. Hull的《Options, Futures, and Other Derivatives》相应的章节, 我总觉得书里的风险中性(risk-netural)的章节讲得不清楚, 这里几乎是按我得理解重新讲了一遍. 
+这篇文章按我自己的理解整理了John C. Hull的《Options, Futures, and Other Derivatives》相应的章节, 我总觉得书里的风险中性(risk-netural)的章节讲得不清楚, 这里几乎是按我得理解重新写了一遍. 
 
 防杠精声明: 如果觉得文章有错漏麻烦指出具体错在哪, 或给出正确的答案解释, 或者相应的引用来源.
 
